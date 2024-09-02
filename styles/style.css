@@ -11,8 +11,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: open sans;
-  color: #10214e;
+  font-family: ;
+  color: #bf3550;
 }
 
 article {
@@ -25,10 +25,9 @@ article {
   max-width: 25em;
   min-width: 20em;
   border-radius: 1rem;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
-  box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
-  transition: .25s;
+  background: linear-gradient(#e66465, #9198e5);
+  box-shadow: 0 0 20px 20px rgba(163, 117, 117, 0.1);
+  transition: .50s;
 }
 
 header {

@@ -1,7 +1,4 @@
 
-
-
-
 .background {
   background-image: url('../assets/my.background.gif');
   background-position: center;
@@ -22,12 +19,22 @@
 }
 h1 {
   text-align: center;
+  color: #fff;
+  text-shadow: #000 1px 0 10px;
+  font-family: Georgia, serif;
 }
 p  { text-align: center;
-
+color: #fff;
+text-shadow: #000 1px 0 10px;
+font-family: Georgia, serif;
 }
 h2 { font-size: 100%;
-text-align: center;}
+text-align: center;
+color: #fff;
+text-shadow: #000 1px 0 10px;
+font-family: Georgia, serif;
+}
+
 button {
   position: absolute;
   right: 1rem;
@@ -84,16 +91,23 @@ dl {
   width: 100%;
   margin-top: -3rem;
   margin-bottom: 0;
+  margin-left: -1rem;
   padding: 5rem 0 3rem;
   text-align: center;
+ color: #fff;
+ text-shadow: #000 1px 0 10px;
+ font-family: Georgia, serif;
  
 }
 
 dt {
   margin-top: .25rem;
   padding-top: .25rem;
-  border-top: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid(217, 210, 210, 0.3);
   font-weight: bold;
+  color: #fff;
+  text-shadow: #000 1px 0 10px;
+  font-family: Georgia, serif;
 }
 dt:nth-of-type(1) {
   grid-area: html-dt;

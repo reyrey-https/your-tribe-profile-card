@@ -35,40 +35,6 @@ color: #fff;
 text-shadow: #000 1px 0 10px;
 font-family: Georgia, serif;
 }
-
-button {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  padding: .25rem;
-  border: none;
-  border-radius: 50%;
-  background: rgb(212, 153, 219);
-  transform: scale(.8);
-  transition: .25s;
-}
-button:focus {
-  outline: none;
-  background: #430562;
-}
-button:focus svg {
-  stroke: rgba(0,239,255,1);
-}
-
-svg {
-  position: absolute;
-  top: calc(1.25rem - 12px);
-  left: calc(1.25rem - 12px);
-  stroke: #4e54c8;
-  transition-delay: .25s;
-}
-button svg:nth-of-type(2) {
-  opacity: 0;
-  transition-delay: 0ms;
-}
-
 img {
   position: relative;
   top: 2rem;
@@ -143,30 +109,3 @@ article > p {
   background: rgba(255,255,255, 0.5);
 }
 
-/* expand content */
-body.expand {
-  font-size: 1.15em;
-}
-
-body.expand article {
-  width: 60vw;
-  max-width: 60vw;
-}
-
-body.expand button svg:first-of-type {
-  opacity: 0;
-  transition-delay: 0ms;
-}
-
-body.expand button svg:nth-of-type(2) {
-  opacity: 1;
-  transition-delay: .25s;
-}
-
-body.expand dd {
-  font-size: 1.75em;
-}
-
-body.expand img {
-  width: 15em;
-}
